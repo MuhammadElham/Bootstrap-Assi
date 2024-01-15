@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    overflow: hidden;
+} */
+
+.color-nav-Hero{
+    height: 100vh;
+    width: 100vw;
+    background-color: #23C9D5;
+    opacity: 0.9;
+}
+.hero-bg-img{
+    width: 100%;
+    height: 100%;
+    background-image: url("./img1.webp");
+    /* position: relative;
+    z-index: -1; */
+}
+.nav-item i{
+    color: white;
+}
+/* drop down  */
+.dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    margin-left: .125rem;
+}
+.dropdown  .dropdown-menu{
+    display: none;
+}
+/* .nav-toggle-icon{
+    color: black;
+} */
+
+@media (min-width:1000px) {
+    .dropend:hover > .dropdown-menu{
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+    
+}
+/* drop down end  */
+
+
+/* hero section start  */
+.hero-section{
+    height: 80%;
+}
+
+.hero-section a #iconFn{
+    font-size: 5rem;
+}
+.check-btn-color{
+    background-color: #fff;
+}
+.check-btn-color:hover{
+    background-color: transparent;
+    border-color: #fff;
+}
+.about-btn{
+    background-color: transparent;
+    border-color: #fff;
+}
+/* hero section end  */
+
+
+
+/*  card and img start  */
+.card-div-bg{
+    background-color: #23C9D5;
+}
+/* card and img end  */
+
+
+
+
+
+/* 4th section cards start */
+.card-body h5{
+    color: #23C9D5;
+}
+/* 4th section cards end */
+
+
+/* our team box start  */
+.Socailicons a i{
+    color: #23C9D5;
+    padding-right: 10px;
+    font-size: 20px;
+}
+/* our team box end  */
+
+
+/* Footer Start   */
+
+footer .cont{
+    background-color: black;
+    /* height: 300px; */
+    opacity: 0.9;
+}
+.row1{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 100px;
+}
+.footer-col ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.footer-col ul{
+    padding-left: 0;
+    
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 25px;
+    position: relative;
+
+ }
+ .footer-col h4::before{
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #23C9D5;
+    bottom: -10px;
+   
+ }
+ .footer-col ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    transition: 0.5s;   
+    font-size: 16px;   
+}
+.footer-col ul li a:hover{
+    opacity: 1;      
+}
+.footer-col input{
+    border: none;
+    display: block;
+    margin: 14px 0;
+    width: 250px;
+    height: 45px;
+    padding-left: 20px;
+}
+.footer-col .inputsubmit{
+    border: none;
+   background-color: #23C9D5;
+   color: white;
+    /* text-align: center; */
+    padding: 0 20px;
+    cursor: pointer;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    background-color: gray;
+
+}
+@media (max-width:865px){
+    footer .row1,.row2{
+        flex-direction: column;
+    }
+}
+
+
+ /* Footer end   */
